@@ -9,6 +9,6 @@ Edit parameters in config.ini
 
 The settings of the kernel PCA and autoencoders are in the configuration files in './hp-opt'
 
-The configuration files are named 'hp_\<example\>_\<sample size\>_\<semantic space dimensionality\>_\<indices of testing samples\>.ini'
+The configuration files are named 'hp\_\<example\>\_\<sample size\>\_\<semantic space dimensionality\>\_\<indices of testing samples\>.ini'
 
 We used [Spearmint](https://github.com/HIPS/Spearmint) for hyperparameter optimization of kernel PCA and autoencoders
