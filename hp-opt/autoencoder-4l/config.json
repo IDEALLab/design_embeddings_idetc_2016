@@ -1,0 +1,71 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "autoencoder4.py",
+    "experiment-name" : "glass-ae4l-3d",
+    "variables" : {
+        "size_l1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 2,
+            "max"  : 39
+        },
+		"size_l2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 2,
+            "max"  : 39
+        },
+		"size_l3" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 2,
+            "max"  : 39
+        },
+		"learning_rate" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 1e-3,
+            "max"  : 2
+        },
+		"lr_decay" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 1e-12,
+            "max"  : 1e-5
+        },
+		"regularizer" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        },
+		"weight_decay" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 1e-12,
+            "max"  : 1e-5
+        },
+		"momentum" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        }
+    },
+    "tasks": {
+		"mapping" : {
+            "type"        : "OBJECTIVE",
+            "likelihood"  : "NOISELESS"
+		},
+		"l2_less_l1" : {
+			"type"        : "CONSTRAINT",
+			"likelihood"  : "NOISELESS"
+		},
+		"l3_less_l2" : {
+			"type"        : "CONSTRAINT",
+			"likelihood"  : "NOISELESS"
+		}
+    },
+    "polling-time" : 1
+}
+

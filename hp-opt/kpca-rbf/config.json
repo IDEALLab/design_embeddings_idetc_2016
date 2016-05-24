@@ -1,0 +1,20 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "kpca_rbf.py",
+    "experiment-name" : "glass-kpcarbf",
+    "variables" : {
+		"gamma" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 1e-3,
+            "max"  : 10
+        },
+		"alpha" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 1e-8,
+            "max"  : 1
+        }
+    }
+}
+
