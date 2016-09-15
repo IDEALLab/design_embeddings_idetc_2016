@@ -18,7 +18,7 @@ The code is licensed under the MIT license. Feel free to use all or portions for
 Wei Chen, Jonah Chazan, and Mark Fuge.  "How Designs Differ: Non-linear Embeddings Illuminate Intrinsic Design Complexity," for Proceedings of ASME 2016 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference, August 21-24, 2016, Charlotte, USA.
 
     @inproceedings{chen:how_designs_differ_idetc2016,
-        author = {Wei Chen, Jonah Chazan, and Mark Fuge},
+        author = {Chen, Wei and Chazan, Jonah and Fuge, Mark},
         title = {How Designs Differ: Non-linear Embeddings Illuminate Intrinsic Design Complexity},
         booktitle = {ASME International Design Engineering Technical Conferences},
         year = {2016},
