@@ -1,6 +1,8 @@
 # design_embeddings_idetc_2016
 Experiment code associated with our IDETC 2016 paper: "How Designs Differ: Non-Linear Embeddings Illuminate Intrinsic Design Complexity"
 
+Our more recent work is here: https://github.com/IDEALLab/design_embeddings_jmd_2016
+
 To prepare the parametric space for hyperparameter optimization: python parametric_space.py
 
 To train a model using optimized hyperparameters and evaluate with testing samples: python training.py
